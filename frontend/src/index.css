@@ -1,0 +1,6 @@
+body { font-family: sans-serif; max-width: 480px; margin: 2rem auto; padding: 0 1rem; }
+form { display: flex; flex-direction: column; gap: 0.5rem; margin-bottom: 1rem; }
+input, select, button { padding: 0.4rem; font-size: 1rem; }
+.error { color: #b00020; }
+.success { color: #1b6e1b; }
+section { border-top: 1px solid #ccc; padding-top: 1rem; margin-top: 1rem; }
