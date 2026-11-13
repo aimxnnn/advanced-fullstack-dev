@@ -367,5 +367,5 @@ def get_summary():
             "total_received": total,
             "total_pending": total - dispatched,
             "total_dispatched": dispatched,
-            "destination_wise": {dest: count for dest, count in rows},
+            "destination_wise": {dest: count for dest, count in rows}
         }
