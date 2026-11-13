@@ -4,7 +4,7 @@ from fastapi import FastAPI, HTTPException, Header
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
-import function
+import backend.function as function
 
 app = FastAPI(title="Warehouse Dispatch Management System")
 
